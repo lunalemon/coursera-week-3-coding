@@ -1,1 +1,36 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
 
+  body {
+    font-size: 16px;
+    color: rgb(75, 5, 5);
+    background-color: light rgb(102, 96, 96);
+    font-family: 'Comic Neue', cursive;
+  }
+
+  /* header */
+  #header-nav {
+    background-color: rgb(228, 209, 209);
+    border-radius: 0;
+    border: 0;
+  }
+  .navbar-brand {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Comic Neue', cursive;;
+    color:black;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
