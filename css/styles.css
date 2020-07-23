@@ -11,13 +11,14 @@
 
   /* header */
   #header-nav {
-    background-color: rgb(228, 209, 209);
+    background-color: rgb(216, 216, 240);
     border-radius: 0;
     border: 0;
+    border-bottom: solid black;
   }
   .navbar-brand {
       padding-top: 20px;
-      padding-bottom: 20px;
+      padding-bottom: 40px;
   }
   .navbar-brand h1 { /* Restaurant name */
     font-family: 'Comic Neue', cursive;;
@@ -26,11 +27,52 @@
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 5px;
+    padding-bottom: 10px;
     line-height: .75;
   }
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+    border-top: solid black;
+    background-color: rgb(150, 150, 230);
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+    /* end of header */
+    /* start of container */
+#chickenWords {
+    padding-top: 4px;
+    background-color: rgb(222, 239, 241);
+    }
+#beefWords {
+    padding-top: 4px;
+    background-color: rgb(201, 241, 241);
+}
+#sushiWords {
+    padding-top: 4px;
+    background-color:rgb(190, 243, 243);
+}
+
+    /* DESKTOP or MEDIUM DEVICES */
+    @media (min-width: 768px) and (max-width: 991.98px) {}
+
+    /*TABLET or SMALL DEVICES */
+    @media (min-width: 576px) and (max-width: 767.98px) {}
+
+    /*MOBILE or XS DEVICES */
+    @media (max-width: 575.98px) {}
+
   
