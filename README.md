@@ -1,4 +1,4 @@
-# coursera-week-3-coding
+# Coursera-Week-3-Coding
 Coursera course: HTML, CSS, and Javascript for Web Developers
 
 "Coursera Week 3 Assignment: Using the Bootstrap CSS Framework"
